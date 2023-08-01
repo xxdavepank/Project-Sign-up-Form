@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="picturePart">awd</div>
+      <div class="signupPart">
+        <div class="header">
+          Join us for an adventurous hiking experience in the enchanting
+          forests!
+        </div>
+        <div>
+          <h2>SIGN UP NOW!</h2>
+          <form class="" action="get">
+            <input
+              class="name"
+              placeholder="Name *"
+              name="name"
+              type="text"
+              required
+            />
+
+            <input
+              class="surname"
+              placeholder="Surname *"
+              name="surname"
+              type="text"
+              pattern=""
+              required
+            />
+            <input
+              class="email"
+              placeholder="Email *"
+              name="emali"
+              type="email"
+              pattern="/^[^0-9]+$/"
+              required
+            />
+            <input
+              class="password"
+              placeholder="Password *"
+              type="password"
+              required
+            />
+            <input
+              class="confirmPassword"
+              placeholder="Confirm Password *"
+              type="password"
+              required
+            />
+            <input name="submit" type="submit" value="Create Account" />
+            <p>Already have an account? <a href="http://">Log in</a></p>
+          </form>
+        </div>
+        <div class="last">
+          <script>
+            const currentYear = new Date().getFullYear();
+            document.querySelector(
+              ".last"
+            ).innerText = `Copyright © ${currentYear} lawrd`;
+          </script>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

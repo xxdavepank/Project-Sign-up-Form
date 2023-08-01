@@ -1,0 +1,106 @@
+/* * {
+  border: 1px solid red;
+} */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", monospace;
+  font-weight: 300;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.picturePart {
+  background: url("halie-west-25xggax4bSA-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  width: auto;
+  flex: 1;
+}
+.signupPart {
+  display: flex;
+  flex: 2;
+  background-color: #f0e5d3;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+legend {
+  text-align: center;
+  padding: 0;
+}
+.header {
+  background-color: #325b3c;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: auto;
+}
+h2 {
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: #325b3c;
+  margin-bottom: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 10px;
+  align-items: center;
+  background-color: #f0e5d3;
+  outline: 0;
+}
+input[type="text"],
+input[type="surname"],
+input[type="email"],
+input[type="password"] {
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+  border: 0px solid transparent;
+  text-overflow: clip;
+  text-indent: 10px;
+}
+input[type="text"]:focus,
+input[type="surname"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.2);
+  outline: 0;
+}
+form input:nth-child(6) {
+  background-color: #325b3c;
+  color: #fff;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 10px;
+  width: 150px;
+  outline: 0;
+  cursor: pointer;
+}
+form input:nth-child(6):hover {
+}
+a,
+p {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #325b3c;
+  text-align: center;
+}
+.last {
+  background-color: #325b3c;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: #fff;
+
+  margin-top: auto;
+}

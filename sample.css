@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a7d2f0; /* Light blue for the background */
+  font-family: "Courier New", monospace;
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #4a6173; /* Dark blue for the container */
+  border: 1px solid #4a6173; /* Dark blue border for the container */
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.logo {
+  font-size: 36px;
+  color: #a7d2f0; /* Light blue for the logo */
+  background-color: #4a6173; /* Dark blue background for the logo */
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.signup-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #a7d2f0; /* Light blue border for inputs */
+  background-color: #4a6173; /* Dark blue background for inputs */
+  color: #fff; /* White text for inputs */
+  border-radius: 4px;
+}
+
+.signup-form button {
+  background-color: #a7d2f0; /* Light blue for the button */
+  color: #4a6173; /* Dark blue text for the button */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #4a6173; /* Dark blue on hover */
+  color: #a7d2f0; /* Light blue text on hover */
+}
+
+.footer {
+  margin-top: 20px;
+  color: #4a6173; /* Dark blue text for the footer */
+}
